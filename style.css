@@ -1,0 +1,62 @@
+.banner{
+    background: url("img/bannerbaru.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 23%;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+/* style bottom */
+.nav-link:hover::after,
+ #Jumbotron {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #1a86eb;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+.nav-link:hover::after{
+    color: blue;
+}
+.main{
+    text-align: center;
+    height: 1000px;
+    width: 950px;
+    margin: 75px auto 0 auto;
+    margin-top: -30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.main-content{
+    height: 320px;
+    border-bottom: 1px solid blue;
+}
+#main-content-name a{
+    position: absolute;
+    right: 370px;
+    top: 260px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#main-content-name a:hover {
+    color: blanchedalmond;
+}
+@media screen and (max-width:922px) {
+    .content, aside{
+        width: 100%;
+    }
+.center{
+        position: relative;
+        text-align: center;
+    }
+.container {
+    position: relative;
+    text-align: center;
+}
